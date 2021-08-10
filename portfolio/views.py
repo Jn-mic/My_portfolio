@@ -15,5 +15,19 @@ def Home(request):
 
     return render(request,'portfolio/home.html')
 
-# def HomePageView(request):
-#     return render(request,'portfolio/home.html')
+def About(request):
+
+    return render(request,'portfolio/aboutme.html')
+
+def Hire(request):
+
+    return render(request,'portfolio/hireme.html')
+
+def Project(request):
+
+    return render(request,'portfolio/myproject.html')
+
+def Contact(request):
+
+    return render(request,'portfolio/contact.html')
+
