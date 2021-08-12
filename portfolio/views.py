@@ -29,5 +29,5 @@ def Project(request):
 
 def Contact(request):
 
-    return render(request,'portfolio/contact.html')
+    return render (request,'portfolio/contact.html')
 
